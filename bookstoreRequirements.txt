@@ -1,0 +1,79 @@
+Customer can browse the online book store by category (e.g. Health, Success, Business, Programming,
+etc)
+
+they can search books by providing a specific keyword e.g. ‘success habits’.
+
+the customer can
+view basic information about a book like title, author, description, ISBN number, publish date and price
+(in USD).
+
+he or she can read reviews of other customers as well as average rating of a book,
+which can be ranged from 0 to 5 stars.
+
+The customer can write a review for a book but he or she needs to login first. Then he or she needs to
+specify rating (from 0 to 5 stars) along with a short headline and more details in the comment
+
+A
+customer can made only one review for a particular book. If the customer already made a review, the
+website will show that review if he or she tries to make a review again
+
+Note that the customer can’t
+edit the review they already made.
+
+The website lists all categories in the top menu, which allows the customer to browse books in a specific
+domain.
+
+On the home page, the customer can see the most recently published books (based on the
+publish date, not by the date on which the book is put onto the website
+
+Then he can see the bestselling
+books (based on the number of orders have been made through the website), and the most
+favored books (based on their rating and number of reviews).
+
+Note that adding a book multiple times to the shopping cart will increase the quantity (number of
+copies).
+
+The information in shopping cart is maintained during the customer’s session, which means that she can
+continue navigating the site before placing an order
+
+****
+To place an order after adding books into shopping carts, the customer needs to review all books in the
+cart (she can modify quantity or remove some books) before hitting ‘Check Out’
+
+By default, the shipping information is filled with customer’s registered
+information (name, phone, address, city, zip code and country)
+
+The customer clicks “Place Order” button to submit the order to the company’s staff, and then she can
+check the order status via “My Orders” menu. The default status of an order is ‘Processing’ and only the
+company’s staff can update the order status
+
+On the My Orders page, the customer can see all orders she made through the website. The most recent
+orders are shown first and she can click to see the details of each order. At this time, the customer can’t
+edit their orders once they are submitted.
+
+The website also allows the customer to view their registered information (profile details) and edit it.
+Note that the customer cannot change their registered e-mail address, and their password won’t be
+changed if left blank in the edit form.
+
+Also note that when the customer logs out, the information in their shopping cart is cleared.
+
+he search result shows books that have either title or description contain the specified
+keyword.
+
+The admin can manage all categories that are used to classify the books on the website. The only
+information needed for a category is the category name. He cannot delete a category if it contains
+books. He can delete only empty one.
+
+Note that the admin cannot remove a book if there are reviews and orders on it.
+
+For managing customers, customer’s email is unique. He can change a customer’s email, but not to
+another customer’s email. And a customer cannot be deleted if he or she already made reviews or
+purchased books from the site.
+
+For managing reviews, the admin cannot create a new one. Only customer can write a review. The
+admin can edit the headline and comment, but not rating, book or customer. Of course he can delete
+any review if it is inappropriate or violates company’s policy.
+
+In addition, the admin can manage the books picked by the customer. He can update quantity,
+remove or even add other books to the order.
+

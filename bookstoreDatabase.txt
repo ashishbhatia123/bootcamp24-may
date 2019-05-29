@@ -1,0 +1,95 @@
+bookstore
+database prepare  - bean class 
+java 
+ service layer
+ repository 
+ ui 
+ util
+
+
+
+
+Admin
+	--adminId
+	--full name
+	--Email
+	--
+
+user
+	--userId
+	--roll
+	--password
+book
+
+	--bookId		-(number)
+	--category	-(categoryEnum)
+	--Title		-(text)
+	--author		-(text)
+	--description	-(text)
+	--isbnNumber	-(text)
+	--ImageURL 	-(text)
+	--price		-(double)
+	--publishDate	-(DATE)
+	--quantity	-(number)
+
+Category (enum)
+	-- categoryId
+	--categoryName
+		--bussiness
+		--health
+		--marketting
+		--programming
+		--technology
+		--lifestyle
+		--history
+orders
+		--orderId
+		--total
+		--orderStatus
+		--paymentMethod
+		
+orderDetail
+		--orderDetailId
+		--orderId
+		--bookId
+		--subtotal
+		--quantity
+
+Customer
+	--customerId
+	--FullName
+	--email
+	--phoneNumber
+	--address
+	--city
+	--zipcode
+	--country
+
+
+BookReview
+	--ReviewId
+	--BookId
+	--customerId
+	--bookReviewDetailID
+	
+
+bookReviewDeatail
+	--bookReviewDeatailID
+	--headline
+	--discription
+	--rating
+
+cart
+	--cartId
+	--bookId
+
+
+
+
+
+
+
+
+
+
+ 
